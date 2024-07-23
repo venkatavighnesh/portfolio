@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Designer</p>
+                <h1>Hi, I'm <span>Vighnesh</span><br> From Guntur</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profile.jpg" alt="Rushikesh's Profile Picture">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>I'm a dedicated Front-End Designer based in Guntur with a passion for creating beautiful and functional web experiences. With a background in UI/UX design and web development, I specialize in crafting user-centric designs that drive engagement and deliver results.</p><br>
+
+                    <div class="tab-titles">
+                        <p class="names active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="names" onclick="opentab('experience')">Experience</p>
+                        <p class="names" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX Design</span><br>Creating engaging web and app interfaces with a focus on user experience.</li><br>
+                            <li><span>Web Development</span><br>Building responsive and dynamic web applications using modern technologies.</li><br>
+                            <li><span>C++ Programming</span><br>Developing interactive and efficient software solutions.</li><br>
+                        </ul>
+                    </div>
+                    <div class="contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Present</span><br>UI/UX Design Trainee at SRM Institute, gaining hands-on experience in design and development.</li><br>
+                            <li><span>Freelance Web Developer</span><br>Developed various web applications for clients, focusing on usability and aesthetics.</li><br>
+                        </ul>
+                    </div>
+                    <div class="contents" id="education">
+                        <ul>
+                            <li><span>Bachelor’s in Computer Science</span><br>Graduated from ABC University, specializing in software development and design.</li><br>
+                            <li><span>Certification in UI/UX Design</span><br>Completed a specialized course in user interface and user experience design.</li><br>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1>My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Transform your ideas into visually stunning websites. I design with the user in mind, ensuring an intuitive and engaging experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>Craft user interfaces that are not only beautiful but also functional. I focus on creating seamless user experiences for web and mobile apps.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>C++ Programming</h2>
+                    <p>Develop robust and efficient applications using C++. I provide solutions for complex problems with well-structured and optimized code.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img class="img1" src="img1.jpeg" alt="Social Media App">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>An innovative app connecting users with talented individuals across various fields.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="img2" src="img2.png" alt="Portfolio Site">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>A personal portfolio site showcasing skills and projects with a modern, responsive design.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="img3" src="img3.png" alt="E-Commerce Site">
+                    <div class="layer">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A feature-rich e-commerce website designed to enhance user shopping experiences.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> venkatavighneshenugula@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 8639157919</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="resume.pdf" class="btn btn2">My Resume</a> 
+                </div>
+                <div class="contact-right">
+                    <form id="contactForm">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <p id="formSuccessMessage" style="display:none; color:green;">Successfully submitted</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("names");
+        var tabcontents = document.getElementsByClassName("contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        document.getElementById("contactForm").addEventListener("submit", function(event){
+            event.preventDefault();
+            document.getElementById("formSuccessMessage").style.display = "block";
+        });
+    </script>
+</body>
+</html>
